@@ -1,6 +1,5 @@
 package domaci_10_1_2022;
 
-import p10_1_2022_oop.Proizvod;
 
 public class D_Zadatak1 {
 
