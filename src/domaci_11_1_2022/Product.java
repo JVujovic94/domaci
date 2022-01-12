@@ -14,6 +14,10 @@ public class Product {
 	public void povecajCenu (int vrednostPovecanja) {
 		this.cena = this.cena + vrednostPovecanja;
 	}
+	public double vratiCenuSaPopustom (int popust) {
+		double cenaSaPopustom = this.cena - (this.cena*popust/100);
+		return cenaSaPopustom;
+	}
 
 
 		}

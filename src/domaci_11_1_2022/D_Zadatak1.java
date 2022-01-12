@@ -13,6 +13,9 @@ public class D_Zadatak1 {
 		pr1.tezina = 100.0;
 		pr1.povecajCenu(30);
 		pr1.stampaj();
+		System.out.println();
+		System.out.println("Cena sa popustom je: " + pr1.vratiCenuSaPopustom(10) + " din.");
+
 
 		
 		
