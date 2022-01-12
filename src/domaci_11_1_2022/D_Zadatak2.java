@@ -27,8 +27,9 @@ public class D_Zadatak2 {
 		sac1.potrosnjaGrejanje = 2;
 		sac1.temperatura = 20;
 		sac1.mod = "hladi";
-		sac1.stampa();
-
+		sac1.stampaj();
+		System.out.println("Mesecna potrosnja iznosi: " + sac1.mesecnaPotrosnja() + " kW/h");
+	
 	}
 
 }
