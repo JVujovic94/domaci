@@ -27,6 +27,10 @@ public class FacebookPost {
 		}
 	}
 	
+	public void share () {
+		this.brojDeljenja = this.brojDeljenja + 1;
+	}
+	
 	
 	
 	
