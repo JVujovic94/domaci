@@ -11,6 +11,9 @@ public class Product {
 		System.out.print(this.naziv + ", cena:" + this.cena + " din, tezina:" + this.tezina + " g.");
 
 	}
+	public void povecajCenu (int vrednostPovecanja) {
+		this.cena = this.cena + vrednostPovecanja;
+	}
 
 
 		}
