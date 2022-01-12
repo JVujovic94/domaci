@@ -18,7 +18,17 @@ public class Product {
 		double cenaSaPopustom = this.cena - (this.cena*popust/100);
 		return cenaSaPopustom;
 	}
-
+	public int racunajPostarinu () {
+		int cenaPostarine = 0;
+		if (this.tezina <= 100) {
+			cenaPostarine = 200;
+		} else if (this.tezina >= 101 && this.tezina <= 500) {
+			cenaPostarine = 400; 
+		} else {
+			cenaPostarine = 500;
+		}
+		return cenaPostarine;
 
 		}
+}
 
