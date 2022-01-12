@@ -7,9 +7,8 @@ public class Proizvod {
 	
 	public void stampaj () {
 		
-		System.out.print("{{" + this.naziv + "}} "+ ", " 
-					   + "{{" + this.cena + "}} " + ", " 
-					   + "{{" + this.tezina + "}}");
+		System.out.print(this.naziv + ", " + this.cena + ", " + this.tezina);
+		
 	}
 
 }
