@@ -12,10 +12,7 @@ public class SmartAirConditioning {
 		System.out.println(this.marka + " - " + this.mod + " - " + this.temperatura);
 	}
 	
-//	metodu koja racuna mesecnu potrosnju u kW/h, po formuli:
-//	30 * 15 * potrosnja po satu ( zavisi da li greje ili hladi)
-	
-	public int mesecnaPotrosnja () {
+	public int mesecnaPotrosnjaKWh () {
 		int mp = 0;
 		if (this.mod.equals("hladi")) {
 			mp = 30 * 15 * this.potrosnjaHladjenje;
@@ -25,4 +22,19 @@ public class SmartAirConditioning {
 		return mp;
 	}
 	
-}
+//	metodu koja racuna koliko klima novca potrosi za mesec dana
+//	Prvih 350 kW/h su u zelenoj zoni i 1 kW/h kosta 6din
+//	Sve ostalo se racuna kao u plavoj zoni, gde 1kW/h kosta 9 dinara
+//	Metoda vraca ukupnu cenu za taj mesec
+//
+	public int mesecnaPotrosnjaDin () {
+		int cena = 0;
+		if (this.mesecnaPotrosnjaKWh() <= 350) {
+			cena = this.mesecnaPotrosnjaKWh() * 6;
+		} else {
+			cena = this.mesecnaPotrosnjaKWh() * 9;
+		}
+		return cena;
+		}
+	}
+

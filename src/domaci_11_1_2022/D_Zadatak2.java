@@ -28,7 +28,8 @@ public class D_Zadatak2 {
 		sac1.temperatura = 20;
 		sac1.mod = "hladi";
 		sac1.stampaj();
-		System.out.println("Mesecna potrosnja iznosi: " + sac1.mesecnaPotrosnja() + " kW/h");
+		System.out.println("Mesecna potrosnja iznosi: " + sac1.mesecnaPotrosnjaKWh() + " kW/h");
+		System.out.println("Koriscenje klime na mesecnom nivou kosta: " + sac1.mesecnaPotrosnjaDin() + " din.");
 	
 	}
 
