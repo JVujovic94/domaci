@@ -59,5 +59,21 @@ public class D_Zadatak3 {
 		fp2.share();
 		fp2.share();
 		fp2.print();
+		
+		System.out.println();
+		
+		FacebookPost fp3 = new FacebookPost ();
+		fp3.imePrezimeO = "Milos Vujovic";
+		fp3.imePrezimeP = "Ksenija Vujovic";
+		fp3.tekst = "???";
+		fp3.brojLajkova = 0;
+		fp3.brojDeljenja = 0;
+		
+		fp3.like();
+		fp3.dislike();
+		fp3.dislike();
+		fp3.dislike();
+		fp3.share();
+		fp3.print();
 	}
 }

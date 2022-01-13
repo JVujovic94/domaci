@@ -1,27 +1,39 @@
-package domaci_11_1_2022;
+package domaci_13_1_2022;
 
 public class FacebookPost {
 
+	private String imePrezimeO;
+	private String imePrezimeP;
+	private String tekst;
+	private int brojLajkova;
+	private int brojDeljenja;
 	
+	public FacebookPost () {
+		
+	}
 	
-	String imePrezimeO;
-	String imePrezimeP;
-	String tekst;
-	int brojLajkova;
-	int brojDeljenja;
-	
-
-	
-
-
-	public FacebookPost(String imePrezimeO, String imePrezimeP, String tekst) {
+	public FacebookPost (String imePrezimeO, String imePrezimeP, String tekst) {
 		this.imePrezimeO = imePrezimeO;
 		this.imePrezimeP = imePrezimeP;
 		this.tekst = tekst;
-		// TODO Auto-generated constructor stub
 	}
+	
+	public FacebookPost (String imePrezimeO2, String imePrezimeP2, String tekst2) {
+		this.imePrezimeO = imePrezimeO2;
+		this.imePrezimeP = imePrezimeP2;
+		this.tekst = tekst2;
+	}
+	
+//	public int getBrojLajkova () {
+//		return this.brojDeljenja;
+//	
+//	}
+//	public int getBrojDeljenja () {
+//		return this.brojDeljenja;
+//	}
+	
 
-
+	
 	public void like () {
 		this.brojLajkova = this.brojLajkova + 1;
 	}
@@ -43,5 +55,5 @@ public class FacebookPost {
 		System.out.println("Likes " + this.brojLajkova + " | " + "Shares " + this.brojDeljenja);
 		
 	}
-
 }
+
