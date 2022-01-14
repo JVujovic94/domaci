@@ -14,12 +14,7 @@ public class FacebookPost {
 	
 
 
-	public FacebookPost(String imePrezimeO, String imePrezimeP, String tekst) {
-		this.imePrezimeO = imePrezimeO;
-		this.imePrezimeP = imePrezimeP;
-		this.tekst = tekst;
-		// TODO Auto-generated constructor stub
-	}
+
 
 
 	public void like () {
