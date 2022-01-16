@@ -45,7 +45,22 @@ public class D_Zadatak1 {
 		k2.setAutor(a2);
 		
 		k2.print();
-		}
+		
+		System.out.println();
+		
+		Autor a3 = new Autor ();
+		a3.setIme("Tara");
+		a3.setPrezime("French");
+		
+		Knjiga k3 = new Knjiga ();
+		k3.setIsbn("658-7895-99987");
+		k3.setNaziv("In The Woods");
+		k3.setGodina(2007);
+		k3.setAutor(a3);
+		
+		k3.print();
+	
+	}
 	
 	}
 
