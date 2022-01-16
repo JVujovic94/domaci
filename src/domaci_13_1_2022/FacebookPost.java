@@ -8,20 +8,20 @@ public class FacebookPost {
 	private int brojLajkova;
 	private int brojDeljenja;
 	
-	public FacebookPost () {
-		
-	}
+//	public FacebookPost () {
+//		
+//	}
 	
 	public FacebookPost (String imePrezimeO, String imePrezimeP, String tekst) {
 		this.imePrezimeO = imePrezimeO;
 		this.imePrezimeP = imePrezimeP;
 		this.tekst = tekst;
-	}
-	
-	public FacebookPost (String imePrezimeO2, String imePrezimeP2, String tekst2) {
-		this.imePrezimeO = imePrezimeO2;
-		this.imePrezimeP = imePrezimeP2;
-		this.tekst = tekst2;
+//	}
+//	
+//	public FacebookPost (String imePrezimeO2, String imePrezimeP2, String tekst2) {
+//		this.imePrezimeO = imePrezimeO2;
+//		this.imePrezimeP = imePrezimeP2;
+//		this.tekst = tekst2;
 	}
 	
 //	public int getBrojLajkova () {

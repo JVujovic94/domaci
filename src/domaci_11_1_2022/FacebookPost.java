@@ -17,6 +17,8 @@ public class FacebookPost {
 
 
 
+	
+
 	public void like () {
 		this.brojLajkova = this.brojLajkova + 1;
 	}
