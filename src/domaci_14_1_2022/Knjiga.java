@@ -21,6 +21,10 @@ public class Knjiga {
 	private int godina;
 	private Autor autor;
 	
+	public Knjiga () {
+		
+	}
+	
 	public Knjiga (String isbn, String naziv, int godina) {
 		this.isbn = isbn;
 		this.naziv = naziv;
@@ -51,7 +55,7 @@ public class Knjiga {
 		return this.godina;
 	}
 	
-	private void setAutor (Autor autor) {
+	public void setAutor (Autor autor) {
 		this.autor = autor;
 	}
 
@@ -64,4 +68,5 @@ public class Knjiga {
 		System.out.println(this.naziv + " - " + this.godina);
 		System.out.print("Autor: ");
 		this.autor.print();
+}
 }

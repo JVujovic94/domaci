@@ -35,6 +35,11 @@ public class Autor {
 		this.prezime = prezime;
 	}
 	
+//	public Autor (String ime2, String prezime2) {
+//		this.ime = ime2;
+//		this.prezime = prezime2;
+// 		}
+	
 	public void setIme (String ime) {
 		this.ime = ime;
 	}
